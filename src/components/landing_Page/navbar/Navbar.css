@@ -1,0 +1,53 @@
+.main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav1 img {
+  height: 40px;
+  width: 30px;
+}
+.nav1 span {
+  color: #008080;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav2-child {
+  list-style-type: none; /* Removes bullets */
+  color: #a9a9a9;
+  display: flex;
+}
+
+.nav2-child li {
+  margin-right: 20px;
+}
+
+.nav2-child li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav2-child li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.nav3 .get-started {
+  height: 35px;
+  background-color: #008080;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+}
